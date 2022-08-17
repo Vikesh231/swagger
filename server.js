@@ -6,6 +6,9 @@ const cors = require('cors')
 const app = express();
 const port = 8081;
 
+
+console.log("tst commit on github")
+
 const  Connection  = require('./db/connect');
 const Seller = require('./db/Seller')
 
